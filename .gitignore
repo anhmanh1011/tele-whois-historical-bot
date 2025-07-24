@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+
+# Log files
+*.log
+
+# Config files (nên không đẩy configs.json nếu chứa thông tin nhạy cảm)
+configs.json
+
+# Kết quả tra cứu tạm thời
+whois_results_*.csv
+whois_results_*.txt
+
+tmp_*
+
+# VSCode
+.vscode/ 
